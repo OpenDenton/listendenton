@@ -1,0 +1,50 @@
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+
+.listenHeader {
+	font-size: 7rem;
+  	color: cornsilk;
+}
+
+.listenHeader small {
+	font-size: 6rem;
+	font-weight: 300;
+	color: cornsilk;
+}
+
+
+
+.intro {
+	background-image: 
+		linear-gradient(
+			to right, 
+			transparent, 
+			hsla(1, 50%, 50%, .3), 
+			transparent
+		);
+}
+
+
+/* this is just for the banner */
+
+@media only screen and (max-width: 767px) {
+	.listenHeader {
+		font-size: 4rem;
+	}
+
+	.listenHeader small {
+		font-size: 3rem;
+	}
+}
+
+
+
+/* that google form... the best I could pluck from */
+
+label {
+	background-color: teal;
+ 	padding: 12px;
+ 	color: white;
+}

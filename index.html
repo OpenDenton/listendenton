@@ -1,76 +1,275 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Listendenton by OpenDenton</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Listendenton</h1>
-      <h2 class="project-tagline">Basic site for ListenDenton.com form entry.</h2>
-      <a href="https://github.com/OpenDenton/listendenton" class="btn">View on GitHub</a>
-      <a href="https://github.com/OpenDenton/listendenton/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/OpenDenton/listendenton/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<title>Listen Denton</title>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!-- CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
+	<link href="assets/css/animate.css" rel="stylesheet">
+    
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+  <!-- override everything. -->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+    <link href="stylesheets/customStyles.css" rel="stylesheet">
+    
+    <script src="assets/js/modernizr.custom.js"></script>
+       
+</head>
+<body>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+	<!-- Preloader -->
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+	<!-- Home start -->
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+	<section id="home" class="pfblock-image screen-height">
+        <div class="NOT_YET_home-overlay"></div>
+		<div class="intro">
+			<h1 class="listenHeader"><small>listen</small>denton<small>.com</small></h1>
+			<div class="start">Do you have ideas to make Denton better?...We're all ears!</div>
+		</div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        <a href="#services">
+		<div class="scroll-down">
+            <span>
+                <i class="fa fa-angle-down fa-2x"></i>
+            </span>
+		</div>
+        </a>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+	</section>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+	<!-- Home end -->
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+	<!-- Navigation start -->
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/OpenDenton/listendenton">Listendenton</a> is maintained by <a href="https://github.com/OpenDenton">OpenDenton</a>.</span>
+	<header class="header">
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+		<nav class="navbar navbar-custom" role="navigation">
 
-    </section>
+			<div class="container">
 
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">Ld</a>
+				</div>
 
-  ga('create', 'UA-48749943-2', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#testimonials">Info</a></li>
+						<li><a href="#contact">Participate</a></li>
+					</ul>
+				</div>
 
-</script>
+			</div><!-- .container -->
 
-  </body>
+		</nav>
+
+	</header>
+
+	<!-- Navigation end -->
+
+ 
+
+	<!-- Bullet points start -->
+
+	<section id="testimonials" class="pfblock pfblock-gray">
+
+
+		<div class="container">
+            
+      <div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="pfblock-header wow fadeInUp">
+						<h2 class="pfblock-title">WHAT IS LISTENDENTON?</h2>
+						<div class="pfblock-line"></div>
+						<div class="pfblock-subtitle">
+							We are Denton citizens just like you looking for ways to improve our town in both little ways and big ways. A competitive grant from the Bloomberg Foundation has become available for cities who come up with the best ideas using creative thinking, technology, and public data. We are volunteers asking the question: What problems need fixing in our town?
+						</div>
+					</div>
+				</div>
+			</div><!-- .row -->
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <div class="pfblock-header wow fadeInUp">
+            <h2 class="pfblock-title">THIS IS WHERE YOU COME IN...</h2>
+            <div class="pfblock-line"></div>
+            <div class="pfblock-subtitle">
+               We want to hear from you. We can address the issues we face as a community only by engaging the citizens of Denton - YOU! Tell us what the city of Denton can do better by answering the questions below. We will evaluate all proposals and select one to present.
+            </div>
+          </div>
+        </div>
+      </div><!-- .row -->
+
+  
+
+					
+		</div><!-- .row -->
+	</section>
+
+	<!-- Bullet points end -->
+
+
+	<!-- Contact start -->
+
+	<section id="contact" class="pfblock">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-6 col-sm-offset-3">
+
+					<div class="pfblock-header">
+						<h2 class="pfblock-title">We just have two questions for you...</h2>
+						<div class="pfblock-line"></div>
+					</div>
+
+				</div>
+
+			</div><!-- .row -->
+
+      <!-- look at this beautiful form! -->
+
+			<div class="row">
+
+<form action="https://docs.google.com/forms/d/1rKND5kA8MIycFQosuWwdZhMeUYrqwbtO9QGaeD3vK08/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+
+<div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1920448532">
+<div class="ss-q-title">What problem would you like to see solved in Denton?</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<textarea name="entry.1920448532" rows="8" cols="0" class="ss-q-long" id="entry_1920448532" dir="auto" aria-label="What problem would you like to see solved in Denton?  "></textarea>
+<div class="error-message" id="308137623_errorMessage"></div> <!-- here's that error message; research validating google forms -->
+
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item  ss-paragraph-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1411322672"><div class="ss-q-title">What idea(s) do you have to help solve the problem?
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<textarea name="entry.1411322672" rows="8" cols="0" class="ss-q-long" id="entry_1411322672" dir="auto" aria-label="What idea(s) do you have to help solve the problem?  "></textarea>
+<div class="error-message" id="1173045305_errorMessage"></div>
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_190304786"><div class="ss-q-title">First and last name
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.190304786" value="" class="ss-q-short" id="entry_190304786" dir="auto" aria-label="First and last name  " title="">
+<div class="error-message" id="1135685620_errorMessage"></div>
+
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1092138746"><div class="ss-q-title">Email address
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1092138746" value="" class="ss-q-short" id="entry_1092138746" dir="auto" aria-label="Email address  " title="">
+<div class="error-message" id="1838477798_errorMessage"></div>
+
+</div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+<div dir="ltr" class="ss-item  ss-text"><div class="ss-form-entry">
+<label class="ss-q-item-label" for="entry_1588259764"><div class="ss-q-title">Zip code
+</div>
+<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+<input type="text" name="entry.1588259764" value="" class="ss-q-short" id="entry_1588259764" dir="auto" aria-label="Zip code  " title="">
+<div class="error-message" id="2124238151_errorMessage"></div>
+
+</div></div></div>
+<input type="hidden" name="draftResponse" value="[,,&quot;-2070612045555876484&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+
+
+<input type="hidden" name="fbzx" value="-2070612045555876484">
+
+<div class="ss-item ss-navigate">
+
+<table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+</td>
+</tr></tbody></table></div>
+
+</form>
+
+
+<!-- end of beautiful form! -->
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</section>
+
+	<!-- Contact end -->
+
+	<!-- Footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12">
+
+					<ul class="social-links">
+						<li><a href="index.html#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+
+					<p class="heart">
+                        Made with <span class="fa fa-heart fa-2x animated pulse"></span> in Dallas, Tx
+                    </p>
+
+                    <p class="copyright">
+                        © 2015 Open Denton
+					 </p>
+
+				</div>
+
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer>
+
+	<!-- Footer end -->
+
+	<!-- Scroll to top -->
+
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+    
+    <!-- Scroll to top end-->
+
+	<!-- Javascript files -->
+
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.easypiechart.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.cbpQTRotator.js"></script>
+	<script src="assets/js/custom.js"></script>
+
+</body>
 </html>
-
