@@ -31,11 +31,11 @@ body {
 
 @media only screen and (max-width: 767px) {
 	.listenHeader {
-		font-size: 4rem;
+		font-size: 3.3rem;
 	}
 
 	.listenHeader small {
-		font-size: 3rem;
+		font-size: 2.4rem;
 	}
 	label {
 		font-size: 1.4;
