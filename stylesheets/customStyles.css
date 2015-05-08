@@ -62,12 +62,13 @@ label {
 .textFieldBG {
 	background-color: HSLA(177, 45%, 40%, .1);
   width: 100%;
+  font-weight: 400;
+  font-size: 1.7rem;
 }
 
 .inputFields {
 	background-color: HSLA(177, 45%, 40%, .1);
   padding: 12px;
-  color: white;
   width: 100%;
   font-weight: 400;
   font-size: 2rem;
