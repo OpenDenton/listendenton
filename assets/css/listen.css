@@ -4223,7 +4223,7 @@ body {
     font-size: 2rem;
   }
 }
-/* that google form... */
+/* that google form... the best I could pluck from */
 label {
   background-color: #38948f;
   padding: 12px;
@@ -4256,4 +4256,9 @@ label {
   min-height: 44px;
   font-size: 2rem;
   font-weight: 600;
+}
+.navLinks {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Raleway, "Times New Roman", Times, sans-serif;
 }
