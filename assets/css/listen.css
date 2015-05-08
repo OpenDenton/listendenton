@@ -4217,16 +4217,10 @@ body {
 }
 @media only screen and (max-width: 568px) {
   .listenHeader {
-    font-size: 2.9rem;
+    font-size: 2.6rem;
   }
   .listenHeader small {
     font-size: 2rem;
-  }
-  label {
-    font-size: 1.4;
-  }
-  .inputFields {
-    font-size: 1.4;
   }
 }
 /* that google form... */
